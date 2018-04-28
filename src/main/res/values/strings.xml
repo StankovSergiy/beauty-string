@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Beautiful String</string>
+
+    <!-- main layout -->
+
+    <string name="input_text">INPUT TEXT</string>
+    <string name="input_please">Please, input here before press the button above.</string>
+    <string name="convert_btn">CONVERT</string>
+    <string name="clean_btn">CLEAN</string>
+    <string name="output_text">OUTPUT TEXT</string>
+    <string name="btn_please">Input above and press the button to see correct text, please.</string>
+
+</resources>
+

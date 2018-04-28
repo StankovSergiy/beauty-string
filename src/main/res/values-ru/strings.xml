@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Прекрасная строка</string>
+
+    <!-- main layout -->
+
+    <string name="input_text">ВХОДЯЩИЙ ТЕКСТ</string>
+    <string name="input_please">Пожалуйста, здесь вводите текст и жмите кнопку КОНВЕРТИРОВАТЬ выше</string>
+    <string name="convert_btn">КОНВЕРТИРОВАТЬ</string>
+    <string name="clean_btn">ОЧИСТЬ</string>
+    <string name="output_text">ВЫХОДЯЩИЙ ТЕКСТ</string>
+    <string name="btn_please">Нужно ввести текст выше и нажать кнопку КОНВЕРИТИРОВАТЬ.</string>
+
+</resources>

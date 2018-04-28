@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context="com.staser.beautifulstring.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.staser.beautifulstring.MainActivity">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_convert"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/convert_btn" />
+
+            <Button
+                android:id="@+id/btn_clean"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/clean_btn" />
+
+        </LinearLayout>
+
+
+        <TextView
+            style="@style/TitleTextTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/input_text" />
+
+
+        <EditText
+            android:id="@+id/et_input"
+            style="@style/TextTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/input_please"
+            android:padding="5dp"
+            android:text="with its powerful tools and dazzling effects,Keynote makes it Easy to create stunning and memorable presentations.
+See Who you ’re working with ... While you’re editing, a separate list lets you quickly see who else is in the presentation." />
+
+
+        <TextView
+            style="@style/TitleTextTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/output_text" />
+
+        <TextView
+
+            android:id="@+id/tv_output"
+            style="@style/TextTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/btn_please"
+            android:padding="5dp" />
+
+
+    </LinearLayout>
+
+</ScrollView>
